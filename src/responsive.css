@@ -1,0 +1,86 @@
+@media(max-width:1450px){
+    .metas{
+        display: flex;
+        flex-direction: column;
+    }
+    .metas div{
+        margin-bottom: 40px;
+    }
+    .break{
+        width: 100%;
+        height: 2px;
+    }
+    section{
+        background-size: cover;
+        background-position: center;
+        height: max-content;
+    }
+}
+@media(max-width:1075px){
+    .links li{
+        display: none;
+    }
+    .links li:last-child{
+        display: block;
+    }
+    #menu{
+        display: block;
+    }
+}
+@media(max-width:900px){
+    header h1{
+        font-size: 72px;
+        width: 50%;
+    }
+}
+@media(max-width:772px){
+    header h1{
+        font-size: 62px;
+        width: 50%;
+    }
+}
+@media(max-width:667px){
+    header h1{
+        font-size: 54px;
+        width: 50%;
+    }
+}
+@media(max-width:640px){
+    section h2{
+        font-size: 32px;
+    }
+    .metas img, .metas h5, .metas p{
+        width: 80%;
+    }
+    .metas p, .metas h5{
+        margin: 0 auto;
+    }
+    .break{
+        width: 100%;
+    } 
+}
+@media(max-width:730px){
+    .metas{
+        width: 80%;
+    }
+    #access, #education{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .metas img, .metas h5, .metas p{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media(max-width:583px){
+    header h1{
+        font-size: 48px;
+        width: 50%;
+    }
+}
+@media(max-width:610px){
+    .logo span{
+        display: none;
+    }
+
+}
